@@ -30,6 +30,12 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
+		    <groupId>io.prometheus</groupId>
+		    <artifactId>simpleclient_pushgateway</artifactId>
+		    <version>0.6.0</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
@@ -75,6 +81,11 @@
             <groupId>cn.jiguang.springboot</groupId>
             <artifactId>jiguang-msa-rest-common</artifactId>
             <version>0.0.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
         </dependency>
 	</dependencies>
 
